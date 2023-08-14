@@ -1,0 +1,420 @@
+<!DOCTYPE HTML>
+<!--
+	Ion by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Go Back In Time</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<script src="js/script.js" type="text/javascript"></script>	
+		<script src="js/initialization.js" type="text/javascript"></script>	
+			
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+
+	</head>
+	<body id="top">
+
+		<!-- Header -->
+			
+			
+			<header id="header" class="skel-layers-fixed">
+				<h1>Go Back In Time</h1>
+				<br>
+				<nav id="nav">
+					<ul>
+						<li><strong>Categories</strong></li>
+						<li><a href="#">All</a></li>
+						<li><a href="#">Politics</a></li>
+						<li><a href="#">Economics</a></li>
+						<li><a href="#">Business</a></li>
+						<li><a href="#">Technology</a></li>
+						<li><a href="#">Science</a></li>
+						<li><a href="#">Sports</a></li>
+						<li><a href="#">Arts</a></li>
+						<li><a href="#">People</a></li>
+						<li><a href="#">Misc</a></li>
+					</ul>
+				</nav>
+				</nav>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<h2>Blast to</h2>
+					<h2 id="dateheader"></h2>
+					<p>What happened on this date?!</p>
+					<ul class="actions">
+						<li>
+						<select id = "months" onchange="showForm()">
+						  <option value="0">Month</option>
+						  <option value="1" onclick="initmonth1()">January</option>
+						  <option value="2" onclick="initmonth2()">February</option>
+						  <option value="3" onclick="initmonth3()">March</option>
+						  <option value="4" onclick="initmonth4()">April</option>
+						  <option value="5" onclick="initmonth5()">May</option>
+						  <option value="6" onclick="initmonth6()">June</option>
+						  <option value="7" onclick="initmonth7()">July</option>
+						  <option value="8" onclick="initmonth8()">August</option>
+						  <option value="9" onclick="initmonth9()">September</option>
+						  <option value="10" onclick="initmonth10()">October</option>
+						  <option value="11" onclick="initmonth11()">November</option>
+						  <option value="12" onclick="initmonth12()">December</option>
+						</select></li>
+						<li>
+						<div id="31" style="display:none">
+						    <form name="form1">
+						        <select id="opts" onchange="showForm()">
+						            <option value="0">Select Option</option>
+						            <option value="1" onclick="initday1()">1</option>
+						            <option value="2" onclick="initday2()">2</option>
+						            <option value="3" onclick="initday3()">3</option>
+						            <option value="4" onclick="initday4()">4</option>
+						            <option value="5" onclick="initday5()">5</option>
+						            <option value="6" onclick="initday6()">6</option>
+						            <option value="7" onclick="initday7()">7</option>
+						            <option value="8" onclick="initday8()">8</option>
+						            <option value="9" onclick="initday9()">9</option>
+						            <option value="10" onclick="initday10()">10</option>
+						            <option value="11" onclick="initday11()">11</option>
+						            <option value="12" onclick="initday12()">12</option>
+						            <option value="13" onclick="initday13()">13</option>
+						            <option value="14" onclick="initday14()">14</option>
+						            <option value="15" onclick="initday15()">15</option>
+						            <option value="16" onclick="initday16()">16</option>
+						            <option value="17" onclick="initday17()">17</option>
+						            <option value="18" onclick="initday18()">18</option>
+						            <option value="19" onclick="initday19()">19</option>
+						            <option value="20" onclick="initday20()">20</option>
+						            <option value="21" onclick="initday21()">21</option>
+						            <option value="22" onclick="initday22()">22</option>
+						            <option value="23" onclick="initday23()">23</option>
+						            <option value="24" onclick="initday24()">24</option>
+						            <option value="25" onclick="initday25()">25</option>
+						            <option value="26" onclick="initday26()">26</option>
+						            <option value="27" onclick="initday27()">27</option>
+						            <option value="28" onclick="initday28()">28</option>
+						            <option value="29" onclick="initday29()">29</option>
+						            <option value="30" onclick="initday30()">30</option>
+						            <option value="31" onclick="initday31()">31</option>
+						        </select>
+						    </form>
+						</div>
+						<div id="30" style="display:none">
+						    <form name="form2">
+						        <select id="opts" onchange="showForm()">
+						            <option value="0">Select Option</option>
+						            <option value="1" onclick="initday1()">1</option>
+						            <option value="2" onclick="initday2()">2</option>
+						            <option value="3" onclick="initday3()">3</option>
+						            <option value="4" onclick="initday4()">4</option>
+						            <option value="5" onclick="initday5()">5</option>
+						            <option value="6" onclick="initday6()">6</option>
+						            <option value="7" onclick="initday7()">7</option>
+						            <option value="8" onclick="initday8()">8</option>
+						            <option value="9" onclick="initday9()">9</option>
+						            <option value="10" onclick="initday10()">10</option>
+						            <option value="11" onclick="initday11()">11</option>
+						            <option value="12" onclick="initday12()">12</option>
+						            <option value="13" onclick="initday13()">13</option>
+						            <option value="14" onclick="initday14()">14</option>
+						            <option value="15" onclick="initday15()">15</option>
+						            <option value="16" onclick="initday16()">16</option>
+						            <option value="17" onclick="initday17()">17</option>
+						            <option value="18" onclick="initday18()">18</option>
+						            <option value="19" onclick="initday19()">19</option>
+						            <option value="20" onclick="initday20()">20</option>
+						            <option value="21" onclick="initday21()">21</option>
+						            <option value="22" onclick="initday22()">22</option>
+						            <option value="23" onclick="initday23()">23</option>
+						            <option value="24" onclick="initday24()">24</option>
+						            <option value="25" onclick="initday25()">25</option>
+						            <option value="26" onclick="initday26()">26</option>
+						            <option value="27" onclick="initday27()">27</option>
+						            <option value="28" onclick="initday28()">28</option>
+						            <option value="29" onclick="initday29()">29</option>
+						            <option value="30" onclick="initday30()">30</option>
+
+						        </select>
+						    </form>
+						</div>
+						<div id="29" style="display:none">
+						    <form name="form3">
+						        <select id="opts" onchange="showForm()">
+						            <option value="0">Select Option</option>
+						            <option value="1" onclick="initday1()">1</option>
+						            <option value="2" onclick="initday2()">2</option>
+						            <option value="3" onclick="initday3()">3</option>
+						            <option value="4" onclick="initday4()">4</option>
+						            <option value="5" onclick="initday5()">5</option>
+						            <option value="6" onclick="initday6()">6</option>
+						            <option value="7" onclick="initday7()">7</option>
+						            <option value="8" onclick="initday8()">8</option>
+						            <option value="9" onclick="initday9()">9</option>
+						            <option value="10" onclick="initday10()">10</option>
+						            <option value="11" onclick="initday11()">11</option>
+						            <option value="12" onclick="initday12()">12</option>
+						            <option value="13" onclick="initday13()">13</option>
+						            <option value="14" onclick="initday14()">14</option>
+						            <option value="15" onclick="initday15()">15</option>
+						            <option value="16" onclick="initday16()">16</option>
+						            <option value="17" onclick="initday17()">17</option>
+						            <option value="18" onclick="initday18()">18</option>
+						            <option value="19" onclick="initday19()">19</option>
+						            <option value="20" onclick="initday20()">20</option>
+						            <option value="21" onclick="initday21()">21</option>
+						            <option value="22" onclick="initday22()">22</option>
+						            <option value="23" onclick="initday23()">23</option>
+						            <option value="24" onclick="initday24()">24</option>
+						            <option value="25" onclick="initday25()">25</option>
+						            <option value="26" onclick="initday26()">26</option>
+						            <option value="27" onclick="initday27()">27</option>
+						            <option value="28" onclick="initday28()">28</option>
+						            <option value="29" onclick="initday29()">29</option>
+						        </select>
+						    </form>
+						</div>
+						
+						<select id="datenum" >
+						  <option value="0">Day</option>
+						</select></li>
+						
+						<li><a href="#content" class="button big special" onclick="display();">Blast Away</a></li>
+						
+					</ul>
+					<p id="display"></p>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper style1">
+				
+			</section>			
+			
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row double">
+						<!--<div class="6u">
+							<div class="row collapse-at-2">
+							</div>
+						</div>-->
+						<!--<div class="6u">
+							<h2>Aliquam Interdum</h2>
+							<p>Blandit nunc tempor lobortis nunc non. Mi accumsan. Justo aliquet massa adipiscing cubilia eu accumsan id. Arcu accumsan faucibus vis ultricies adipiscing ornare ut. Mi accumsan justo aliquet.</p>
+							<ul class="icons">
+								<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+							</ul>
+						</div>-->
+					</div>
+					<ul class="copyright">
+						<li>&copy; 2015 MHacks</li>
+						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+						
+					</ul>
+				</div>
+			</footer>
+
+		<script type = "text/javascript">
+			/*
+			window.onload = function() {
+			var today = new Date();
+			var dd = today.getDate();
+			var mm = today.getMonth(); //January is 0!
+			var mArray = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+			var date = mArray[mm] +  " " + dd;
+			document.getElementById("dateheader").innerHTML = date;
+			//mArray[m-1] + " " + d;
+			}
+			*/
+			// get selectbox
+			
+			/*function setdays(max) {
+			var select = document.getElementById("datenum");
+			for(var i =1 ; i<=max; i++) {		//somehow generate the FRICKING drop down list
+				var option = document.createElement('option'); //Son of a biscuit on the mofo nugget!!
+				option.text = option.value = i; //I....... at........ my......... wits.......... end...........
+				select.add(option, 0); //RIP
+			}*/
+			function showForm() {
+	        	var selopt = document.getElementById("months").value;
+	        	if (selopt == 0) {
+	            	document.getElementById("31").style.display = "none";
+	            	document.getElementById("30").style.display = "none";
+	            	document.getElementById("29").style.display = "none";
+	            	document.getElementById("datenum").style.display = "block";
+	        	}
+	        	if (selopt == 1) {
+	            	document.getElementById("31").style.display = "block";
+	            	document.getElementById("30").style.display = "none";
+	            	document.getElementById("29").style.display = "none";
+	            	document.getElementById("datenum").style.display = "none";
+	        	}
+	        	if (selopt == 2) {
+	            	document.getElementById("31").style.display = "none";
+	            	document.getElementById("30").style.display = "none";
+	            	document.getElementById("29").style.display = "block";
+	            	document.getElementById("datenum").style.display = "none";
+	        	}
+	        	if (selopt == 3) {
+	            	document.getElementById("31").style.display = "block";
+	            	document.getElementById("30").style.display = "none";
+	            	document.getElementById("29").style.display = "none";
+	            	document.getElementById("datenum").style.display = "none";
+	        	}
+	        	if (selopt == 4) {
+	            	document.getElementById("31").style.display = "none";
+	            	document.getElementById("30").style.display = "block";
+	            	document.getElementById("29").style.display = "none";
+	            	document.getElementById("datenum").style.display = "none";
+	        	}
+	        	if (selopt == 5) {
+	            	document.getElementById("31").style.display = "block";
+	            	document.getElementById("30").style.display = "none";
+	            	document.getElementById("29").style.display = "none";
+	            	document.getElementById("datenum").style.display = "none";
+	        	}
+	        	if (selopt == 6) {
+	            	document.getElementById("31").style.display = "none";
+	            	document.getElementById("30").style.display = "block";
+	            	document.getElementById("29").style.display = "none";
+	            	document.getElementById("datenum").style.display = "none";
+	        	}
+	        	if (selopt == 7) {
+	            	document.getElementById("31").style.display = "block";
+	            	document.getElementById("30").style.display = "none";
+	            	document.getElementById("29").style.display = "none";
+	            	document.getElementById("datenum").style.display = "none";
+	        	}
+	        	if (selopt == 8) {
+	            	document.getElementById("31").style.display = "block";
+	            	document.getElementById("30").style.display = "none";
+	            	document.getElementById("29").style.display = "none";
+	            	document.getElementById("datenum").style.display = "none";
+	        	}
+	        	if (selopt == 9) {
+	            	document.getElementById("31").style.display = "none";
+	            	document.getElementById("30").style.display = "block";
+	            	document.getElementById("29").style.display = "none";
+	            	document.getElementById("datenum").style.display = "none";
+	        	}
+	        	if (selopt == 10) {
+	            	document.getElementById("31").style.display = "block";
+	            	document.getElementById("30").style.display = "none";
+	            	document.getElementById("29").style.display = "none";
+	            	document.getElementById("datenum").style.display = "none";
+	        	}
+	        	if (selopt == 11) {
+	            	document.getElementById("31").style.display = "none";
+	            	document.getElementById("30").style.display = "block";
+	            	document.getElementById("29").style.display = "none";
+	            	document.getElementById("datenum").style.display = "none";
+	        	}
+	        	if (selopt == 12) {
+	            	document.getElementById("31").style.display = "block";
+	            	document.getElementById("30").style.display = "none";
+	            	document.getElementById("29").style.display = "none";
+	            	document.getElementById("datenum").style.display = "none";
+	        	}
+	    	}
+			
+			var listofevents = [];
+			//var objectforoutput;
+			function setlist() {
+				
+				var month = document.getElementById('months').value; //months.value;
+				var day = parseInt(document.getElementById('opts').value) + 1; // opts.value;
+				 
+				//initializes the object
+				
+				historyData.load({
+					month: month,
+					day: day,
+					callback: function(response) {
+						console.log('done!')
+						console.log(response);
+						var i;
+						for (i = response.Events.length-1; i >= 0; i--) {
+							var dateandevent = response.Events[i].text + " " + response.Events[i].year;
+							listofevents[i] = dateandevent;
+							//document.getElementById("display").innerHTML = listofevents[i];
+						}
+						//var text = "";
+						/*
+						for (i = listofevents.length-1; i >= 0; i--) {
+							text += listofevents[i] + "<br><br>";
+						}
+						document.getElementById("display").innerHTML = text;
+						*/ 
+					}
+				}) //getData(month,day));
+				
+
+				
+				return listofevents;
+				//document.getElementById("display").innerHTML = listofevents;
+			};
+			var currentElem = 0;
+			//console.log(stuff[currentElem]);
+			function display() {
+				/*var events = setlist();
+				var text = "";
+				for (i = events.length-1; i >= 0; i--) {
+					text += events[i] + "<br><br>";
+				}
+				document.getElementById("display").innerHTML = text; */
+				var stuff = setlist();
+				console.log(currentElem);
+				if (currentElem === 0) {
+					stuff = " Blast Off! ";
+				}
+				async = false;
+				//var text = "";
+				console.log(stuff[currentElem]);
+				document.getElementById('display').innerHTML=stuff[currentElem];
+				
+				
+
+				if (currentElem >= stuff.length){
+					currentElem = 0;
+				}
+				currentElem += 1
+				setTimeout("display()",5000);
+				
+			};
+			
+			
+			
+			
+			function determinedate1() {
+				determinedate = "/date" + "/" + month + "/" + day;
+				return determinedate;
+			}
+
+			/*function setdays(max)
+			{
+				var selectBox = document.getElementById('datenum');
+			var date = mArray[mm] +  ", " + dd;
+			document.getElementById("dateheader").innerHTML = date;
+			}*/
+			
+		</script>
+	</body>
+</html>
